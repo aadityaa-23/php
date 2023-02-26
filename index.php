@@ -82,42 +82,6 @@
 			$tempnum++;
 		}
 	}
-	echo "</table><hr/>";
-	{
-		$fact=1;
-		for($i=1;$i<=$num;$i++)
-		{
-			$fact=$fact*$i;
-		}
-		echo "factorial of ".$num.": ".$fact;
-	}echo "<hr/>";
-	{
-		if($num/2 != 0)
-		{
-			echo $num." is odd number.";
-		}
-		else
-		{
-			echo $num."is even number.";
-		}
-	}echo "<hr/>";
-	{
-		if(-$num < 0)
-		{
-			echo -$num." is negative number.";
-		}
-		elseif($num > 0)
-		{
-			echo -$num." is positive number.";
-		}
-		else
-		{
-			echo -$num."is zero.";
-		}
-	}
-	{
-		
-	}
 	echo "<hr/><br>Github:<a href=\"https://github.com/aadityaa-23\">aadityaa-23</a>"
 ?>
 </html>
